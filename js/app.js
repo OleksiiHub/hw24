@@ -5,7 +5,7 @@ function result(a, b) {
     let second = a - b;
     let third = a * b;
     let fourth = a / b;
-    element.textContent = c`Сумма ${first}, вычитание  ${second}, умножение ${third}, деление ${fourth}`;
+    element.textContent = `Сумма ${first}, вычитание  ${second}, умножение ${third}, деление ${fourth}`;
 }
 result(5, 8);
 

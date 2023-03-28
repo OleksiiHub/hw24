@@ -1,11 +1,11 @@
-
+let element = document.getElementById('myElement');
 
 function result(a, b) {
     let first = a + b;
     let second = a - b;
     let third = a * b;
     let fourth = a / b;
-    console.log(`Сумма ${first}, вычитание  ${second}, умножение ${third}, деление ${fourth}`);
+    element.textContent = c`Сумма ${first}, вычитание  ${second}, умножение ${third}, деление ${fourth}`;
 }
 result(5, 8);
 

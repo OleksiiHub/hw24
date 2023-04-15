@@ -27,3 +27,12 @@ function myArray(arr) {
 }
 
 myArray([1, 2, 3, 4, 12, 'string', 7, undefined, 8, 9]);
+
+
+function operations(a, b) {
+    if (typeof a && typeof b === 'number') {
+        return console.log(`Сумма ${a+b}, вычитание ${a-b}, умножение ${a*b}, деление ${a/b}`)
+    }
+}
+
+operations(5, 8);
